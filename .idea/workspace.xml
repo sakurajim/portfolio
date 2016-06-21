@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf757121-6d53-4d66-944c-be3c1a9e38df" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg-about.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/index.html" afterPath="$PROJECT_DIR$/page/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/index.jade" afterPath="$PROJECT_DIR$/page/index.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prepros.cfg" afterPath="$PROJECT_DIR$/prepros.cfg" />
     </list>
     <ignored path="portfolio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -290,12 +284,12 @@
       <workItem from="1466375937169" duration="3000" />
       <workItem from="1466454430063" duration="1301000" />
       <workItem from="1466490152280" duration="2702000" />
-      <workItem from="1466493253636" duration="4892000" />
+      <workItem from="1466493253636" duration="5435000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45082000" />
+    <option name="totallyTimeSpent" value="45625000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
