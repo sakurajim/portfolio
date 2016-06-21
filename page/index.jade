@@ -1,0 +1,66 @@
+doctype html
+html
+        head
+            meta(charset='UTF-8')
+            meta(name="viewport" content="width=device-width, initial-scale=1")
+            title portfolio
+            link(rel='stylesheet', href='../css/main.css')
+            link(rel='stylesheet', href='../node_modules/normalize.css/normalize.css')
+        body
+         .wrapper
+            header.header
+                .socials_left
+                    ul.socials__list
+                        li.socials__item.socials__vk
+                            a.socials__link(href="#")
+                        li.socials__item.socials__git
+                            a.socials__link(href="#")
+                        li.socials__item.socials__in
+                            a.socials__link(href="#")
+                .menu_right
+                .info_card
+                    .image-wrap
+                    h2.name Дмитрий Межевых
+                    p.web_develop Личный сайт веб-разрабочик
+                .elliplse_block
+                    h1.my_works МОИ РАБОТЫ
+            section.content
+                .block_left
+                    .block_text
+                        span.site_name Сайт школы онлайн образования
+                .block_right
+                    .block_slide
+            section.about
+                h1.about_me что обо мне говорят
+                .comment
+                    .comments_koval
+                        .avatar1
+                        .comment_text Этот парень проходил обучение веб-разработке не где-то, а в Loftschool!2 месяца только самых тяжелых испытаний и бессоных ночей!
+                    .comment_zar
+                        .avatar2
+                        .comment_text2 Этот код выдержет любые испытания.Только пожалуйста, не загружайте сайт на слишком старых браузерах
+                    .back_coupling
+                        h2.form_name Связаться со мной
+                        form.form
+                            input(type="text" placeholder='Ваше имя' class='input_name')
+                            input(type='text' placeholder='Ваш e-mail' class='input_mail')
+                            textarea(placeholder='Ваше сообщение')
+                            input(type='submit' class='submit_btn')
+                            input(type='reset' class='clear-btn')
+            footer.footer
+                .footer_content
+                    .footer_left
+                        .info_content "Этот сайт я сделал в рамках обучения в Школе онлайн образования Loftschool."
+                .site_map
+                    ul.map
+                        li
+                            a(href='#') Мои работы
+                        li
+                            a(href='#') Обо мне
+                        li
+                            a(href='#') Блог
+                        li
+                            a(href='#') Авторизация
+
+
+
