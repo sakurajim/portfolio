@@ -11,7 +11,7 @@
 
 .header {
     width: 100%;
-    height: 800px;
+    height: 100vh;
     background: url("../img/water.png") center no-repeat;
     background-size: cover;
     padding-top: 153px;
@@ -173,12 +173,12 @@
 
 .content {
     width: 100%;
-    height: 747px;
+    height: 100vh;
 }
 
 .block_left {
     width: 50%;
-    height: 750px;
+    height: 100%;
     min-height: 600px;
     background: #ebefe2;
     float: left;
@@ -187,7 +187,7 @@
 
 .block_right {
     width: 50%;
-    height: 750px;
+    height: 100%;
     min-height: 600px;
     background: #e1e4d7;
     float: right;
@@ -210,9 +210,13 @@
 }
 
 .about {
-    height: 1353px;
+    height: 100vh;
     width: 100%;
-    background: #f4f5f0;
+    background-color: #f4f5f0;
+    background-image: url("../img/about_bg.png");
+    background-repeat: repeat-x;
+    background-position: 19% 90%, right center, bottom center;
+    background-size: 100%;
     align-items: center;
     color: #fff;
 }
@@ -232,12 +236,12 @@
     max-width: 876px;
     margin: 0 auto;
     padding-top: 62px;
+    background-color: rgba(244, 245, 240, 0.5);
 }
 
 .comments_koval {
     display: inline-block;
     width: 400px;
-    padding-right: 50px;
 }
 
 .avatar1{
@@ -263,6 +267,7 @@
 .comment_zar {
     display: inline-block;
     width: 400px;
+    margin-left: 50px;
 }
 
 .avatar2 {
@@ -290,18 +295,25 @@
     position: relative;
     margin-top: 69px;
     width: 348px;
-    height: 459px;
-    background-color: rgba(255,255,255,.05);
+    color: rgba(93, 90, 85, 0.5);
+    background-color: rgba(224, 224, 220, 0.6);
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 81px auto;
+    border-radius: 5px;
 ;
 }
 
 .form {
     text-align: center;
     position: relative;
+}
+
+.form_name {
+    color: #4e8839;
+    font-size: 34px;
+    font-family: Roboto;
 }
 
 .input_name {
@@ -311,9 +323,11 @@
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
-    background-color: rgba(255,255,255,.07);
+    background-color: white;
+    color: rgba(93, 90, 85, 0.5);
     border: none;
     padding-left: 18px;
+    border-radius: 30px;
 }
 
 .input_mail {
@@ -323,42 +337,56 @@
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
-    background-color: rgba(255,255,255,.07);
+    color: rgba(93, 90, 85, 0.5);
+    background-color: white;
     border: none;
     padding-left: 18px;
+    border-radius: 30px;
 }
 
 .back_coupling textarea {
-    box-sizing: border-box;
-    overflow: auto;
-    resize: none;
-    width: 88.6%;
-    height: 130px;
-    background-color: rgba(255,255,255,.07);
+    width: 76.6%;
+    border-radius: 22.5px;
+    opacity: 0.85;
+    background-color: white;
+    color: rgba(93, 90, 85, 0.5);
+    font-family: Roboto;
+    font-size: 16px;
+    padding: 15px 19px;
+    margin-bottom: 20px;
     border: none;
-    padding-left: 18px;
+    resize: none;
 }
 
 .submit_btn {
-    cursor: pointer;
-    left: 0;
-    box-sizing: border-box;
+    position: relative;
+    color: #ffffff;
+    font: 500 16px / 36px 'Roboto';
+    background-color: rgba(108, 156, 90, 0.8);
+    display: block;
+    width: 50%;
+    text-decoration: none;
     border: none;
-    bottom: -66px;
-    background-color: #004cd1;
-    font-family: Roboto,sans-serif;
-    font-weight: 500;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    float: left;
+    border-right: 1px solid white;
 }
 
 .clear-btn {
-    cursor: pointer;
-    left: 0;
-    box-sizing: border-box;
+    position: relative;
+    color: #ffffff;
+    font: 500 16px / 36px 'Roboto';
+    background-color: rgba(108, 156, 90, 0.8);
+    display: block;
+    width: 50%;
+    text-decoration: none;
     border: none;
-    bottom: -66px;
-    background-color: #004cd1;
-    font-family: Roboto,sans-serif;
-    font-weight: 500;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    float: right;
+    border-left: 1px solid white;
+
 }
 
 .footer {
