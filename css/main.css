@@ -1,11 +1,22 @@
+body,html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+
 @font-face {
     font-family: Sansus-Regular;
     src: url('../font/Sansus-Regular.ttf');
 }
 
 .wrapper {
-    display: flex;
-    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 100%;
+    height: auto !important;
     height: 100%;
 }
 
@@ -140,13 +151,13 @@
     margin: 30px 0px 0px 0px;
     color: white;
     font-size: 35px;
-    font-family: "Myriad Pro Regular";
+    font-family: Roboto, sans-serif;
 }
 
 .web_develop {
     display: block;
     color: white;
-    font-family: "Myriad Pro Regular";
+    font-family: Roboto, sans-serif;
 }
 
 .elliplse_block {
@@ -193,24 +204,34 @@
     float: right;
 }
 
-.block_text{
-    width: 450px;
-    height: 320px;
-    position: absolute;
-    left: 10%;
-    top: 120%;
+.technolog {
+    position: relative;
+    width: 380px;
+    max-width: 100%;
     text-align: center;
-
+    margin: 245px auto;
 }
-
 .site_name {
-    color: #566358;
+    color: #373e42;;
     font-size: 35px;
     font-family: Sansus-Regular;
+    width: 300px;
+
+    padding-top: 245px;
+    text-align: center;
+}
+
+.site_name:after {
+    content: '';
+    display: block;
+    width: 89px;
+    height: 3px;
+    background-color: #373e42;;
+    margin: 25px auto 30px;
 }
 
 .about {
-    height: 100vh;
+    height: 116vh;
     width: 100%;
     background-color: #f4f5f0;
     background-image: url("../img/about_bg.png");
@@ -386,37 +407,51 @@
     transition: all 0.5s;
     float: right;
     border-left: 1px solid white;
+}
 
+.arrow_down {
+    display: block;
+    margin: 70px auto;
+}
+
+.arrow_down_link {
+    background-image: url("../img/about_bg.png");
+}
+
+.empty{
+    height: 185px;
 }
 
 .footer {
-    box-sizing: border-box;
-    flex: 0 0 auto;
-    justify-content: space-between;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgba(28,31,41,.85);
-    height: 135px;
-    max-height: 155px;
+    height: 185px;
+    margin-top: -185px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.11), transparent);
+    font-family: Roboto;
+    font-size: 16px;
+    color: white;
+    z-index: 1;
+    opacity: 0.50;
+
 }
 
 .footer_content {
-    padding: 30px 0px;
+    padding: 50px 0px;
     color: white;
-    background-color: rgba(55, 62, 66, 0.85);
+    background-color: rgba(60, 68, 72, 0.85);
 }
 
 .footer_left {
     text-align: left;
     font-weight: 300;
     line-height: 24px;
+    padding: 0 15 px;
 }
 
 .info_content {
     text-align: left;
     font-weight: 300;
     line-height: 24px;
+    width: 200px;
 }
 
 .site_map {

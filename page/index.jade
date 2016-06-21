@@ -8,7 +8,7 @@ html
             link(rel='stylesheet', href='../node_modules/normalize.css/normalize.css')
         body
          .wrapper
-            header.header
+             header.header
                 .socials_left
                     ul.socials__list
                         li.socials__item.socials__vk
@@ -20,17 +20,18 @@ html
                 .menu_right
                 .info_card
                     .image-wrap
-                    h2.name Дмитрий Межевых
-                    p.web_develop Личный сайт веб-разрабочик
+                    span.name Дмитрий Межевых
+                    span.web_develop Личный сайт веб-разрабочик
                 .elliplse_block
                     h1.my_works МОИ РАБОТЫ
-            section.content
+             section.content
                 .block_left
-                    .block_text
+                    .technolog
                         span.site_name Сайт школы онлайн образования
+                        span.tags HTML, CSS, JAVASCRIPT
                 .block_right
                     .block_slide
-            section.about
+             section.about
                 h1.about_me что обо мне говорят
                 .comment
                     .comments_koval
@@ -47,20 +48,10 @@ html
                         textarea(placeholder='Ваше сообщение')
                         input(type='submit' class='submit_btn')
                         input(type='reset' class='clear-btn')
-            footer.footer
-                .footer_content
-                    .footer_left
-                        .info_content "Этот сайт я сделал в рамках обучения в Школе онлайн образования Loftschool."
-                .site_map
-                    ul.map
-                        li
-                            a(href='#') Мои работы
-                        li
-                            a(href='#') Обо мне
-                        li
-                            a(href='#') Блог
-                        li
-                            a(href='#') Авторизация
+                .arrow_down
+                    a.arrow_down_link(href="#")
+             .empty
+         footer.footer
 
 
 
