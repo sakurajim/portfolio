@@ -6,6 +6,8 @@
     <title>portfolio</title>
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../node_modules/normalize.css/normalize.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=ВАШ_API_КЛЮЧ&amp;sensor=false"></script>
+    <script src="../js/map.js"></script>
   </head>
   <body>
     <div class="wrapper">
@@ -21,10 +23,20 @@
         <div class="info_card">
           <div class="image-wrap"></div><span class="name">Дмитрий Межевых</span><span class="web_develop">Личный сайт веб-разрабочик</span>
         </div>
-        <div class="elliplse_block"></div>
+        <svg viewBox="0 0 100 100" preserveAspectRatio="none" class="ellepse">
+          <g>
+            <polygon points="50,100 100,0 100,100" class="ellepse_right"></polygon>
+          </g>
+          <g>
+            <polygon points="0,0 0,100 50,100" class="ellepse_left"></polygon>
+          </g>
+        </svg>
       </header>
-      <section class="about_left"><span class="about_name">Обо мне
-          <div class="my_photo"></div></span></section>
+      <section class="about_l"></section>
+      <section class="about_r"></section>
+      <section class="about_map">
+        <div id="map" style="background-color:#FFF; overflow:hidden" class="smallMap"></div>
+      </section>
     </div>
   </body>
 </html>

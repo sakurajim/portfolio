@@ -6,6 +6,8 @@ html
         title portfolio
         link(rel='stylesheet', href='../css/main.css')
         link(rel='stylesheet', href='../node_modules/normalize.css/normalize.css')
+        script(src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASe4l3XOuaJ1kAEFNDUw1qvoZkxRHbXr8&sensor=false")
+        script(src="../js/map.js")
     body
         .wrapper
             header.header
@@ -22,7 +24,14 @@ html
                     .image-wrap
                     span.name Дмитрий Межевых
                     span.web_develop Личный сайт веб-разрабочик
-                .elliplse_block
-            section.about_left
-                span.about_name Обо мне
-                    .my_photo
+                svg.ellepse(viewBox="0 0 100 100" preserveAspectRatio="none")
+                    g
+                        polygon.ellepse_right(points="50,100 100,0 100,100")
+                    g
+                        polygon.ellepse_left(points="0,0 0,100 50,100")
+            section.about_l
+            section.about_r
+            section.about_map
+                #map(style="background-color:#FFF; overflow:hidden"class="smallMap")
+
+
