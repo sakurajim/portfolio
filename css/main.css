@@ -436,12 +436,11 @@ body,html {
 .footer_content {
     padding: 2.875rem 2.9375rem;
     color: white;
-    background-color: rgba(55, 62, 66, 0.85);
 }
 
 .footer_block1 {
     display: inline-block;
-    width: 421px;
+    width: 630px;
     float: left;
     border-right: 2px solid white;
 }
@@ -449,6 +448,7 @@ body,html {
 .footer_block2 {
     display: inline-block;
     float: left;
+    margin-left: 76px;
 
 }
 
@@ -561,4 +561,81 @@ body,html {
 .smallMap {
     width: 1915px !important;
     height: 700px !important;
+}
+
+
+.socials__list2 {
+    display: inline-block;
+    vertical-align: middle;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+}
+
+.socials__list2:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 90px;
+}
+
+.socials__item2 {
+    background: url("../img/spritesheet.png") no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.socials__git2 {
+    margin-left: 30px;
+    background-position: -3px 0;
+    -webkit-transition: all .6s;
+    -o-transition: all .6s;
+    transition: all .1s;
+}
+
+.socials__git2:hover {
+    background-position: -38px 0;
+    -webkit-transition: all .6s;
+    -o-transition: all .6s;
+    transition: all .1s;
+}
+
+.socials__in2 {
+    margin-left: 30px;
+    background-position: -75px -2px;
+    -webkit-transition: all .6s;
+    -o-transition: all .6s;
+    transition: all .1s;
+}
+
+.socials__in2:hover {
+    background-position: -110px -2px;
+    -webkit-transition: all .6s;
+    -o-transition: all .6s;
+    transition: all .1s;
+}
+
+.socials__vk2 {
+    margin-left: 0px;
+    background-position: -146px 3px;
+    -webkit-transition: all .6s;
+    -o-transition: all .6s;
+    transition: all .1s;
+}
+
+.socials__vk2:hover {
+    background-position: -185px 3px;
+    -webkit-transition: all .6s;
+    -o-transition: all .6s;
+    transition: all .1s;
+}
+
+
+.footer_content2 {
+    float: right;
+    width: 651px;
+    border-left: 2px solid white;
 }
